@@ -22,14 +22,6 @@ This repository contains the implementation of an End-to-End AI Voice Assistance
     ```bash
     git clone https://github.com/yourusername/voice-assistance-pipeline.git
     ```
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3. Run the pipeline:
-    ```bash
-    python main.py
-    ```
 
 ## Usage
 
@@ -42,16 +34,6 @@ This repository contains the implementation of an End-to-End AI Voice Assistance
 - **Pitch**: Adjust the pitch of the synthesized voice.
 - **Voice Gender**: Select between male or female voice.
 - **Speed**: Control the speed of the speech output.
-
-## Project Structure
-
-- `main.py`: Main script to run the pipeline.
-- `vad.py`: Module for Voice Activity Detection.
-- `speech_to_text.py`: Handles the conversion of voice input to text.
-- `text_processing.py`: Integrates with LLM for text processing.
-- `text_to_speech.py`: Converts text back to speech with tunable parameters.
-- `config/`: Directory containing configuration files.
-- `models/`: Pre-trained models used in the pipeline.
 
 ## Contributing
 
